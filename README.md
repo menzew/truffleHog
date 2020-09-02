@@ -11,6 +11,7 @@ Searches through git repositories for secrets, digging deep into commit history 
 ## NEW
 truffleHog previously functioned by running entropy checks on git diffs. This functionality still exists, but high signal regex checks have been added, and the ability to surpress entropy checking has also been added.
 
+------
 
 ```
 truffleHog --regex --entropy=False https://github.com/dxa4481/truffleHog.git
